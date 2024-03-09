@@ -2,13 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import { Container, InfoContainer, Text } from "./projecr-styles";
 import Arrow from "../../svg-export/arrow.png";
-function Project() {
+function Project({ link }) {
   return (
     <Container>
-      <img
-        width={"100%"}
-        src="https://boston-react.vercel.app/assets/img/project-1.jpg"
-      />
+      <img width={"100%"} src={link} />
       <InfoContainer>
         <Text>
           <h2 style={{ paddingBottom: "5px" }}>Agency Landing page</h2>
