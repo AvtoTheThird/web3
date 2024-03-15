@@ -15,19 +15,20 @@ function ContactForm() {
       </div>
 
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <div>
+        <div style={{ width: "48%", marginRight: "10px" }}>
           <Label id="username" htmlFor="username">
             first name
           </Label>
           <Inputfield type="text" placeholder="Name" />
         </div>
-        <div>
+        <div style={{ width: "48%", marginLeft: "10px" }}>
           <Label id="username" htmlFor="username">
             email
           </Label>
           <Inputfield type="text" placeholder="email" />
         </div>
       </div>
+
       <div>
         <Label id="username" htmlFor="username">
           Subject

@@ -1,3 +1,17 @@
 * {
   margin: 0;
 }
+
+.arrow-icon {
+  color: white; /* Set the color of the arrow to white */
+  background-color: #5c64cf; /* Your desired background color */
+  padding: 15px;
+  border-radius: 50%;
+}
+.contact-icon {
+  color: white; /* Set the color of the arrow to white */
+  background-color: #5c64cf; /* Your desired background color */
+  padding: 9px;
+  scale: 1.5;
+  border-radius: 50%;
+}

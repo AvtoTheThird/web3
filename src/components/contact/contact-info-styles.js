@@ -6,8 +6,8 @@ export const Container = styled.div`
 `;
 export const Info = styled.div`
   display: flex;
+  align-items: center;
+  gap: 1.5rem;
   padding-bottom: 25px;
   padding-top: 25px;
-
-  border-bottom: 2px solid black;
 `;
